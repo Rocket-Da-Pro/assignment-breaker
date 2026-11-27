@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assignment Breaker App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form>
+    <label for="assignment-name">
+      Assignment Name
+    </label>
+    <input  id="assignment-name" type="text">
+    </input>
+    <br>
+    <label for="due-date">
+      Due Date
+    </label>
+    <input id="due-date" type="date">
+    </input>
+    <br>
+    <label for="assignments-size">
+      Assignment Size
+    </label>
+    <select name="assignments-size" id="assignments-size">
+      <option>small</option>
+      <option>medium</option>
+      <option>large</option>
+    </select>
+    <br>
+    <button type="button" id="generate-btn">
+      Break It Down
+    </button>
+  </form>
+  <div id="task-output">
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+form  {
+  align-self: center;
+  width: 150px;
+  display: flex-wrap;
+  text-align: center;
+  input {
+    border-radius: 8px;
+  }
+}
